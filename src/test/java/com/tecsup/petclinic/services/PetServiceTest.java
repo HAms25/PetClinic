@@ -97,11 +97,11 @@ public class PetServiceTest {
 	@Test
 	public void testCreatePet() {
 
-		String PET_NAME = "Ponky";
-		int OWNER_ID = 1;
-		int TYPE_ID = 1;
+		String PET_NAME = "Hilari";
+		int OWNER_ID = 43;
+		int TYPE_ID = 43;
 
-		Pet pet = new Pet(PET_NAME, 1, 1);
+		Pet pet = new Pet(PET_NAME, 43, 43);
 		
 		Pet petCreated = petService.create(pet);
 		
